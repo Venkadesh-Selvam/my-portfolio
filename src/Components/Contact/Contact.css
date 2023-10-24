@@ -1,0 +1,70 @@
+#contactMe{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contactDescription{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .message{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: .5rem;
+    padding: .5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    background: rgb(40, 40, 40);
+}
+
+.contactBtn{
+    background: white;
+    cursor: pointer;
+    border: none;
+    margin: 2rem;
+    border-radius: 1rem;
+    padding: .75rem 3.5rem;
+}
+
+.contactBtn:hover{
+    color: gold;
+    background: rgb(40, 40, 40);
+}
+
+.contactLinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 .75rem;
+}
